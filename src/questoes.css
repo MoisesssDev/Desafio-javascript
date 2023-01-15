@@ -1,0 +1,144 @@
+:root {
+	--body-color: #353941;
+	--text-color: #90b8f8;
+	--footer-color: #ffffff;
+	--footer-text-color: #5f85db;
+	--link-text-color: #26282b;
+	--hover-color: #2e5fd1;
+	--font-body: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: var(--body-color);
+	font-family: var(--font-body);
+	color: var(--text-color);
+}
+.botao-home {
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+	height: 50px;
+	width: 50px;
+
+	border-radius: 50%;
+}
+
+/* .botao-reload {
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+	height: 50px;
+	width: 50px;
+
+	border-radius: 50%;
+} */
+
+.botao-neon {
+	cursor: pointer;
+	background-color: transparent;
+	border: solid 3px var(--text-color);
+	border-radius: 10px;
+	box-shadow: inset 0 0 1rem 0 var(--text-color), 0 0 1rem 0 var(--text-color);
+	text-shadow: 0 0 8px rgba(44, 44, 44, 0.3), 0 0 32px;
+
+	position: absolute;
+}
+
+.botao-neon::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0 0 10rem 2rem var(--text-color);
+	opacity: 0;
+	/* background-color: var(--text-color); */
+	z-index: -1;
+	transition: opacity 100ms linear;
+}
+
+.botao-neon:hover::before,
+.botao-neon:hover::after {
+	opacity: 1;
+}
+
+.container-questoes {
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30vh;
+	width: 100%;
+	/* border-bottom: 1px solid var(--footer-color); */
+	padding: 2rem 0;
+}
+
+.box-pergunta {
+	padding: 2rem 0;
+	text-align: center;
+	border-bottom: 1px solid var(--footer-color);
+	border-top: 1px solid var(--footer-color);
+	width: 100%;
+}
+
+.questao-n {
+	padding: 1rem 4rem;
+}
+
+.campo-input {
+	display: flex;
+	justify-content: center;
+}
+
+.input {
+	text-align: center;
+	margin: 1rem;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid var(--text-color);
+	background-color: var(--body-color);
+	padding: 1rem 3rem;
+}
+
+.campo-botao {
+	display: flex;
+	justify-content: center;
+	margin-top: 3rem;
+}
+
+.botao-questoes {
+	padding: 1rem;
+	border-radius: 50%;
+	font-size: 1rem;
+	font-weight: 700;
+	color: var(--link-text-color);
+	background-color: var(--text-color);
+	border: none;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.botao-questoes:hover {
+	color: var(--hover-color);
+
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+	filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+}
+
+.box-resposta {
+	text-align: center;
+	transform: scale(1.2);
+}
