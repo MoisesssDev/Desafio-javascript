@@ -79,16 +79,9 @@ body {
 	align-items: center;
 	height: 30vh;
 	width: 100%;
-	/* border-bottom: 1px solid var(--footer-color); */
-	padding: 2rem 0;
-}
-
-.box-pergunta {
-	padding: 2rem 0;
-	text-align: center;
 	border-bottom: 1px solid var(--footer-color);
-	border-top: 1px solid var(--footer-color);
-	width: 100%;
+	margin-bottom: 1rem;
+	padding: 2rem 0;
 }
 
 .questao-n {

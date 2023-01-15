@@ -203,4 +203,10 @@ a:hover {
 		display: flex;
 		flex-direction: column;
 	}
+
+	#nota1,
+	#nota2,
+	#nota3 {
+		margin: 10px 5px;
+	}
 }
