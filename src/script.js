@@ -34,7 +34,7 @@ function desafio1() {
 	document.querySelector('.desafios').innerHTML =
 		'<div class="botao-home">' +
 		'<button onclick="recarregarHome()" id="botao-home" class="botao-neon">' +
-		'<img src="/img/icons8-página-inicial-48.png" alt="" />' +
+		'<img src="img/icons8-página-inicial-48.png" alt="" />' +
 		'</button>' +
 		'</div>' +
 		// '<div class="botao-reload">' +
@@ -80,7 +80,7 @@ function desafio2() {
 	document.querySelector('.desafios').innerHTML =
 		'<div class="botao-home">' +
 		'<button onclick="recarregarHome()" id="botao-home" class="botao-neon">' +
-		'<img src="/img/icons8-página-inicial-48.png" alt="" />' +
+		'<img src="img/icons8-página-inicial-48.png" alt="" />' +
 		'</button>' +
 		'</div>' +
 		// '<div class="botao-reload">' +
@@ -128,7 +128,7 @@ function desafio3() {
 	document.querySelector('.desafios').innerHTML =
 		'<div class="botao-home">' +
 		'<button onclick="recarregarHome()" id="botao-home" class="botao-neon">' +
-		'<img src="/img/icons8-página-inicial-48.png" alt="" />' +
+		'<img src="img/icons8-página-inicial-48.png" alt="" />' +
 		'</button>' +
 		'</div>' +
 		// '<div class="botao-reload">' +
@@ -176,7 +176,7 @@ function desafio4() {
 	document.querySelector('.desafios').innerHTML =
 		'<div class="botao-home">' +
 		'<button onclick="recarregarHome()" id="botao-home" class="botao-neon">' +
-		'<img src="/img/icons8-página-inicial-48.png" alt="" />' +
+		'<img src="img/icons8-página-inicial-48.png" alt="" />' +
 		'</button>' +
 		'</div>' +
 		// '<div class="botao-reload">' +
@@ -236,7 +236,7 @@ function desafio5() {
 	document.querySelector('.desafios').innerHTML =
 		'<div class="botao-home">' +
 		'<button onclick="recarregarHome()" id="botao-home" class="botao-neon">' +
-		'<img src="/img/icons8-página-inicial-48.png" alt="" />' +
+		'<img src="img/icons8-página-inicial-48.png" alt="" />' +
 		'</button>' +
 		'</div>' +
 		// '<div class="botao-reload">' +
@@ -287,7 +287,7 @@ function desafio6() {
 	document.querySelector('.desafios').innerHTML =
 		'<div class="botao-home">' +
 		'<button onclick="recarregarHome()" id="botao-home" class="botao-neon">' +
-		'<img src="/img/icons8-página-inicial-48.png" alt="" />' +
+		'<img src="img/icons8-página-inicial-48.png" alt="" />' +
 		'</button>' +
 		'</div>' +
 		// '<div class="botao-reload">' +
@@ -350,7 +350,7 @@ function desafio7() {
 	document.querySelector('.desafios').innerHTML =
 		'<div class="botao-home">' +
 		'<button onclick="recarregarHome()" id="botao-home" class="botao-neon">' +
-		'<img src="/img/icons8-página-inicial-48.png" alt="" />' +
+		'<img src="img/icons8-página-inicial-48.png" alt="" />' +
 		'</button>' +
 		'</div>' +
 		// '<div class="botao-reload">' +
@@ -404,7 +404,7 @@ function desafio8() {
 	document.querySelector('.desafios').innerHTML =
 		'<div class="botao-home">' +
 		'<button onclick="recarregarHome()" id="botao-home" class="botao-neon">' +
-		'<img src="/img/icons8-página-inicial-48.png" alt="" />' +
+		'<img src="img/icons8-página-inicial-48.png" alt="" />' +
 		'</button>' +
 		'</div>' +
 		// '<div class="botao-reload">' +
