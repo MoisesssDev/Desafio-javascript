@@ -180,6 +180,9 @@ a:hover {
 }
 
 @media (max-width: 800px) {
+	body {
+		height: 120vh;
+	}
 	.texto {
 		font-size: 24px;
 		white-space: normal;
